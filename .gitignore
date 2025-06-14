@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
+
+# Jest cache
+jest-cache/
+jest-coverage/
+.cache/
+
+# IDE/editor settings
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Optional: lock files (if using only yarn or only npm, keep one)
+package-lock.json
+# yarn.lock
+
+# Optional: if you use Docker
+docker-compose.override.yml
